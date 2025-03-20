@@ -14,12 +14,12 @@ public class Main {
         System.out.println("Postfix Notation: " + main.queue);
         
         int result = evaluatePostfix(main.queue);
-        System.out.println("Ergebnis: " + result);
+        System.out.println("Result: " + result);
     }
 
     public void StringScanner() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Rechnung eingeben: ");
+        System.out.print("Type Expression: ");
         input = sc.nextLine();
         sc.close();
     }
@@ -82,7 +82,7 @@ public class Main {
                         break;
                     case "/":
                         if (val1 == 0) {
-                            throw new ArithmeticException("Division durch 0 ist nicht erlaubt!");
+                            throw new ArithmeticException("Division by 0 not possible");
                         }
                         stack.push(val2 / val1);
                         break;
@@ -92,6 +92,6 @@ public class Main {
                 }
             }
         }
-        return stack.pop();
+        return stack.pop(); 
     }
 }
