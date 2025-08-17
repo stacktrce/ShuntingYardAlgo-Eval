@@ -1,3 +1,2 @@
-Implementation of the Shunting Yard Alogrithm in Java , with a Eval-Method for the PostFix Notation. 
+Implementation of the Shunting Yard Alogrithm in Java , with a Eval-Method for the PostFix Notation which i did code for a test Android App  
 
-Original Eval Code from https://www.geeksforgeeks.org/evaluation-of-postfix-expression/ ; modified to fit the needs of this Shunting Yard Algorithm
